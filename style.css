@@ -1,13 +1,27 @@
-* {
-  margin: 0px;
+body {
+  margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
-  color: #1f11e4;
 }
-.row {
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
+
+.nav {
+  text-align: left;
+  color: #575757;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  padding-right: 0%;
+  border-radius: 100px 15px 25px 10px;
+  box-shadow: 0 0 30px rgba(14, 10, 231, 0.425);
+  background-color: cornflowerblue;
 }
-#icon {
-  width: 50px;
+ul {
+  width: auto;
+  margin-left: 45%;
+  margin-top: 15px;
+}
+li {
+  display: inline-block;
+  padding: 30px 30px;
 }
