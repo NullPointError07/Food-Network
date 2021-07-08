@@ -144,3 +144,13 @@ li {
 .food h2 {
   text-size-adjust: large;
 }
+.Contactus-area {
+  background-color: rgba(230, 190, 14, 0.76);
+  text-align: center;
+  padding: 50px;
+  border-radius: 50px 50px;
+}
+.Contactus-area input {
+  padding: 15px 30px;
+  border-radius: 5px;
+}
