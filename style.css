@@ -7,6 +7,7 @@ body {
 .navigation-area {
   display: flex;
   background-color: skyblue;
+  background-size: 100%;
 }
 .title {
   display: flex;
@@ -80,4 +81,66 @@ li {
 }
 .banner-right img {
   width: 80%;
+}
+/*------ about area------ */
+.aboutus {
+  width: 50%;
+  padding: 7% 7%;
+}
+.aboutus img {
+  width: 93%;
+  margin-left: 150px;
+}
+.aboutus-area {
+  display: flex;
+  padding: 5% 0;
+  background-image: url(images/shapes/7.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.aboutus-area h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  color: #828282;
+}
+.aboutus-area p {
+  font-size: 20px;
+  color: #828282;
+  width: 90%;
+  line-height: 1.7em;
+  padding-bottom: 70px;
+}
+.top-area {
+  text-align: center;
+  font-size: 50px;
+}
+.top-area p {
+  font-size: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.receipe {
+  display: flex;
+}
+.food {
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-shadow: 10px 10px 40px rgb(179, 178, 178);
+  border-radius: 15px;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.food img {
+  width: 440px;
+  height: 350px;
+  border-radius: 20px;
+}
+.food p {
+  text-align: left;
+  padding-top: 15px;
+}
+.food h2 {
+  text-size-adjust: large;
 }
